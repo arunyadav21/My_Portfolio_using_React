@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/3d-web1.png";
 import TextChanger from "../TextChanger";
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
       <div className="hidden md:block relative z-10 w-1/2 justify-center">
         <div className="relative">
           <img style={{marginLeft:350}}
-            className="w-80 h-80 object-contain animate-float " 
+            className="w-80 h-80 object-contain animate-float size-full " 
             src={avatarImg} 
             alt="Arun Yadav" 
           />
