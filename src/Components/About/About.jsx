@@ -12,7 +12,7 @@ const About = () => {
       description: "I transform designs into dynamic, responsive, and user-friendly websites. With expertise in HTML, CSS, JavaScript, and React, I build clean, maintainable code that bridges design and functionality. Every pixel matters and every line of code has purpose.",
       icon: <IoArrowForward size={24} className="text-blue-400" />
     },
-    {
+    {/*
       title: "Database Developer",
       description: "I architect efficient database solutions with expertise in SQL and NoSQL systems. From schema design to query optimization, I ensure data integrity and performance. My experience includes working with MongoDB, PostgreSQL, and Firebase.",
       icon: <IoArrowForward size={24} className="text-purple-400" />
@@ -21,7 +21,7 @@ const About = () => {
       title: "Backend Developer",
       description: "I design robust APIs, manage servers, and build application logic. Specializing in authentication, security, and performance optimization, I solve real-world problems through efficient backend systems using Node.js, Express, and Python.",
       icon: <IoArrowForward size={24} className="text-green-400" />
-    }
+    */}
   ];
 
   return (
