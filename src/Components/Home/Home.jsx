@@ -20,13 +20,16 @@ const Home = () => {
         
         <div className="space-y-4">
           <p className="text-gray-700 text-base md:text-xl leading-relaxed">
-            I'm a passionate <span className="font-semibold text-blue-600">Full Stack Web Developer</span> with 3 years of experience in Sales Department as a Team Leader.
+            I'm a passionate <span className="font-semibold text-blue-600"> Web Developer.</span> 
           </p>
           <p className="text-gray-700 text-base md:text-xl leading-relaxed">
             I've successfully created <span className="font-semibold text-purple-600">3 web development projects</span> that showcase my skills and creativity.
           </p>
           <p className="text-gray-700 text-base md:text-xl leading-relaxed">
-            My expertise lies in building <span className="font-semibold">responsive, user-friendly</span> web applications with modern technologies.
+            My expertise lies in building <span className="font-semibold text-cyan-600">responsive, user-friendly</span> web applications with modern technologies.
+          </p>
+          <p className="text-gray-700 text-base md:text-xl leading-relaxed">
+            And <span className="font-semibold text-pink-500">3 years of experience</span> in Sales Department as a Team Leader.
           </p>
         </div>
         
