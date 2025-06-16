@@ -12,7 +12,13 @@ const Projects = () => {
     {
       title: "Swiggy Clone",
       main: "Food delivery app clone with real-time order tracking, restaurant listings, and cart functionality.",
-      tags: ["React", "Backend UI", "UI"],
+      tags: ["React","TailwindCSS", "Backend UI", "UI"],
+      image: "food-app.jpg" // replace with your image path
+    },
+    {
+      title: "Weather App",
+      main: " City-based Weather Search: Users can search any city to get real-time weather data.",
+      tags: ["React","TailwindCSS", "Weather API", ],
       image: "food-app.jpg" // replace with your image path
     },
     // Add more projects as needed
