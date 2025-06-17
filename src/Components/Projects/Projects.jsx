@@ -3,25 +3,26 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Mega Blog Website",
-      main: "A modern blogging platform built with React.js and Appwrite backend, featuring rich text editing and user authentication.",
-      tags: ["React", "Appwrite", "Tailwind CSS"],
-      image: "blog-project.jpg" // replace with your image path
-    },
+    
     {
       title: "Swiggy Clone",
       main: "Food delivery app clone with real-time order tracking, restaurant listings, and cart functionality.",
       tags: ["React","TailwindCSS", "Backend UI", "UI"],
-      image: "food-app.jpg" // replace with your image path
+      image: "food-app.jpg"
     },
     {
       title: "Weather App",
       main: " City-based Weather Search: Users can search any city to get real-time weather data.",
       tags: ["React","TailwindCSS", "Weather API", ],
-      image: "food-app.jpg" // replace with your image path
+      image: "food-app.jpg" 
     },
-    // Add more projects as needed
+    {
+      title: "Mega Blog Website",
+      main: "A modern blogging platform built with React.js and Appwrite backend, featuring rich text editing and user authentication.",
+      tags: ["React", "Appwrite", "Tailwind CSS"],
+      image: "blog-project.jpg" 
+    },
+    
   ];
 
   return (
