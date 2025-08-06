@@ -38,10 +38,10 @@ const Home = ({ onContactClick }) => {
             onClick={onContactClick}
             className="relative overflow-hidden group text-white py-3 px-6 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-blue-200"
           >
-            <span className="relative z-10">Contact Me</span>
+            <span id="Contact" className="relative z-10">Contact Me</span>
             <span className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
           </button>
-          <button className="text-blue-600 py-3 px-6 text-lg font-semibold rounded-full border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">
+          <button id="Project" className="text-blue-600 py-3 px-6 text-lg font-semibold rounded-full border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">
             View Projects
           </button>
         </div>
