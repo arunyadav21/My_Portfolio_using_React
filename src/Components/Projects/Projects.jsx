@@ -7,8 +7,9 @@ const Projects = () => {
     {
       title: "Swiggy Clone",
       main: "Food delivery app clone with real-time order tracking, restaurant listings, and cart functionality.",
-      tags: ["React","TailwindCSS", "Backend UI", "UI"],
-      image: "food-app.jpg"
+      tags: ["React","TailwindCSS", "Backend API", ],
+      image: "food-app.jpg",
+      live:"https://pkl-resto.vercel.app/"
     },
     {
       title: "Weather App",
@@ -56,6 +57,7 @@ const Projects = () => {
               main={project.main}
               tags={project.tags}
               image={project.image}
+              live={project.link}
             />
           ))}
         </div>
@@ -63,7 +65,7 @@ const Projects = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <p className="text-gray-400 mb-6">Want to see more of my work?</p>
-          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-full hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
+          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-full hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 cursor-pointer">
             View All Projects
           </button>
         </div>

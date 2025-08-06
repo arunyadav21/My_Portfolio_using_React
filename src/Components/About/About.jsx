@@ -57,7 +57,7 @@ const About = () => {
 
             {/* Content Section */}
             <div className="lg:w-3/5 p-8 lg:p-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">
                 About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Me</span>
               </h2>
 

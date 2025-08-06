@@ -1,9 +1,10 @@
 import React from "react";
 import bannerImg from "../../assets/blog-4-1.jpg";
 
-const ProjectCard = ({ title, main, tags = [] }) => {
+const ProjectCard = ({ title, main, tags = [], }) => {
   return (
-    <div className="group relative overflow-hidden p-1 md:p-2 flex flex-col w-80 min-h-[450px] bg-gradient-to-br from-[#0c0e19] to-[#1a1d36] shadow-2xl shadow-slate-900/50 rounded-2xl border border-gray-800 hover:border-blue-400/30 transition-all duration-500 hover:shadow-blue-500/20">
+    
+    <div className="group relative overflow-hidden p-1 md:p-2 flex flex-col w-80 min-h-[450px] bg-gradient-to-br from-[#0c0e19] to-[#1a1d36] shadow-2xl shadow-slate-900/50 rounded-2xl border border-gray-800 hover:border-blue-400/30 transition-all duration-500 hover:shadow-blue-500/20 cursor-pointer">
       {/* Glow effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       
@@ -44,8 +45,9 @@ const ProjectCard = ({ title, main, tags = [] }) => {
 
         {/* Buttons with hover effects */}
         <div className="flex gap-3 mt-auto">
+          
           <button className="flex-1 text-white py-2 px-4 text-sm md:text-md hover:opacity-90 transition-all duration-300 hover:scale-[1.02] font-medium rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 shadow-md hover:shadow-blue-500/30">
-            Live Demo
+           Live Demo
           </button>
           <button className="flex-1 text-white py-2 px-4 text-sm md:text-md hover:opacity-90 transition-all duration-300 hover:scale-[1.02] font-medium rounded-lg bg-gradient-to-r from-purple-600 to-purple-700 shadow-md hover:shadow-purple-500/30">
             Source Code
@@ -56,6 +58,7 @@ const ProjectCard = ({ title, main, tags = [] }) => {
       {/* Corner accent */}
       <div className="absolute top-0 right-0 w-16 h-16 -mr-10 -mt-10 rotate-45 bg-blue-500/20 group-hover:bg-blue-500/30 transition-all duration-500"></div>
     </div>
+    
   );
 };
 

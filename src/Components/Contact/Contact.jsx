@@ -3,9 +3,9 @@ import { MdOutlineEmail, MdOutlineContactPhone, MdVerifiedUser } from "react-ico
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 
-const Footer = () => {
+const Contact = () => {
   return (
-    <footer id="footer" className="relative bg-gradient-to-r from-[#3a4a8a] to-[#465697] text-white py-16 px-8 md:px-24 overflow-hidden">
+    <section id="Contact" className="relative bg-gradient-to-r from-[#3a4a8a] to-[#465697] text-white py-16 px-8 md:px-24 overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-blue-300 blur-3xl"></div>
@@ -73,11 +73,11 @@ const Footer = () => {
       <div className="relative z-10 text-center mt-16 pt-6 border-t border-white/10 text-white/60 text-sm">
         © {new Date().getFullYear()} Arun Yadav. All rights reserved.
       </div>
-    </footer>
+    </section>
   );
 };
 
-export default Footer;
+export default Contact;
 
 
 

@@ -39,7 +39,7 @@ function Navbar() {
                         <NavLink href="#About">About</NavLink>
                         <NavLink href="#Experience">Experience</NavLink>
                         <NavLink href="#Projects">Projects</NavLink>
-                        <NavLink href="#Footer">Contact</NavLink>
+                        <NavLink href="#Contact">Contact</NavLink>
                         <button className="ml-4 px-6 py-2 bg-white text-blue-600 rounded-full font-medium hover:bg-blue-50 hover:shadow-md transition-all duration-300">
                             Hire Me
                         </button>

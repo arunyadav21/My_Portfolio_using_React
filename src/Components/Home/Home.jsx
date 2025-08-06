@@ -2,7 +2,7 @@ import React from "react";
 import avatarImg from "../../assets/3d-web1.png";
 import TextChanger from "../TextChanger";
 
-const Home = () => {
+const Home = ({ onContactClick }) => {
   return (
     <div className="relative flex w-full min-h-screen justify-between items-center px-5 md:px-20 py-10 md:py-0 bg-gradient-to-br from-blue-50 to-purple-50 overflow-hidden">
       {/* Background decorative elements */}
@@ -34,7 +34,10 @@ const Home = () => {
         </div>
         
         <div className="flex flex-wrap gap-4 pt-4">
-          <button className="relative overflow-hidden group text-white py-3 px-6 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-blue-200">
+          <button
+            onClick={onContactClick}
+            className="relative overflow-hidden group text-white py-3 px-6 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-blue-200"
+          >
             <span className="relative z-10">Contact Me</span>
             <span className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
           </button>
@@ -46,10 +49,11 @@ const Home = () => {
       
       <div className="hidden md:block relative z-10 w-1/2 justify-center">
         <div className="relative">
-          <img style={{marginLeft:350}}
-            className="w-80 h-80 object-contain animate-float size-full " 
-            src={avatarImg} 
-            alt="Arun Yadav" 
+          <img
+            style={{ marginLeft: 350 }}
+            className="w-80 h-80 object-contain animate-float"
+            src={avatarImg}
+            alt="Arun Yadav"
           />
           <div className="absolute -z-10 w-full h-full rounded-full bg-blue-100 blur-xl opacity-50 animate-pulse"></div>
           <div className="absolute -z-20 -inset-4 rounded-full border-4 border-blue-200 opacity-30 animate-spin-slow"></div>
